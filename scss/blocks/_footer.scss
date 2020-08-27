@@ -1,0 +1,44 @@
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 35px;
+}
+
+.footer__text {
+    width: 250px;
+    padding-bottom: 60px;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+.footer__list-item {
+    list-style-type: none;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.footer__info {
+    margin-top: 45px;
+    margin-bottom: 25px;
+    width: 230px;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.footer__cards img {
+    margin-right: 20px;
+}
+
+.footer__cards img:last-child {
+    margin: 0;
+}
+

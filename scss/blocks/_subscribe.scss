@@ -1,0 +1,71 @@
+.subscribe__img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.subscribe {
+    position: relative;
+    height: 550px;
+}
+
+.subscribe-title {
+    color: #ffffff;
+    font-family: "Teko", sans-serif;
+    font-size: 97px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.subscribe__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 130%;
+    background-color: rgba(0, 76, 255, 0.75);
+    transition: opacity .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe-form {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    height: 62px;
+}
+
+.subscribe__input {
+    width: 720px;
+    background-color: #fff;
+    padding: 0;
+    padding: 0 44px;
+    font-size: 19px;
+}
+
+.subscribe__button {
+    width: 180px;
+    background-color: #004cff;
+    border: 0;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.subscribe__button:hover {
+    cursor: pointer;
+    background-color: #0339b9
+}
+
+.subscribe__input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    color: #707070;
+}

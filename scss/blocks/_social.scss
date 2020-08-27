@@ -1,0 +1,26 @@
+.social__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #004cff;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.social__item:last-child {
+  margin: 0;
+}
+
+.social__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}

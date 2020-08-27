@@ -1,0 +1,111 @@
+.header {
+    height: 800px;
+    max-width: 100%;
+    background-color: #f5e3d7;
+    background-image: url(../images/header-bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    padding-top: 36px;
+}
+
+.header-nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-burger{
+    display: none;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-link {
+    position: relative;
+    margin-right: 52px;
+    text-decoration: none;
+    color: #404040;
+    font-family: "Teko", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    transition: all .3s;
+}
+
+.header-nav-link:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: #004cff;
+    right: -32px;
+    top: 20%;
+    transform: rotate(45deg);
+    pointer-events: none;
+}
+
+.header-nav-link:last-child:after {
+    display: none;
+}
+
+.header-nav-link:last-child {
+    margin: 0;
+}
+
+.header-nav-link:hover, .header-nav-link--active {
+    color: #004cff;
+}
+
+.header-button {
+    text-decoration: none;
+    padding: 24px 38px;
+    background-color: #004cff;
+    color: #fff;
+    font-family: "Teko";
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    transition: all .3s;
+}
+
+.header-button:hover {
+    background-color: #0036b4;
+}
+
+.header__promo {
+    max-width: 400px;
+}
+
+.header__title {
+    margin-top: 153px;
+    color: #ffffff;
+    font-family: "Teko", sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: 2.73px;
+    margin-bottom: 90px;
+}
+
+.header__promo-btn {
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    padding: 17px 53px;
+    border: 6px solid #ffffff;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.header__promo-btn:hover {
+    background-color: #ffa600;
+    border-color: #aa7106;
+}

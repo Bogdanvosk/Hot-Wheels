@@ -1,0 +1,14 @@
+.top-info {
+    margin: 44px 0 120px;
+}
+
+.top-info__row {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+
+.top-info__row--reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
